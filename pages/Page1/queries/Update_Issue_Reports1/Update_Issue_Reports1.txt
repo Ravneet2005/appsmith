@@ -1,0 +1,1 @@
+UPDATE Issue_Reports SET issuerID= '{{Table1.updatedRow.issuerID}}', modName= '{{Table1.updatedRow.modName}}', date= '{{Table1.updatedRow.date}}', reportContent= '{{Table1.updatedRow.reportContent}}', resolved= '{{Table1.updatedRow.resolved}}', severity= '{{Table1.updatedRow.severity}}', type= '{{Table1.updatedRow.type}}' WHERE reportID= '{{Table1.updatedRow.reportID}}';

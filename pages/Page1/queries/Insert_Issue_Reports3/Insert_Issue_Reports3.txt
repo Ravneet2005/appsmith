@@ -1,0 +1,1 @@
+INSERT INTO Issue_Reports (issuerID,modName,date,reportContent,resolved,severity,type) VALUES ('{{(Table1.newRow || {}).issuerID}}','{{(Table1.newRow || {}).modName}}','{{(Table1.newRow || {}).date}}','{{(Table1.newRow || {}).reportContent}}','{{(Table1.newRow || {}).resolved}}','{{(Table1.newRow || {}).severity}}','{{(Table1.newRow || {}).type}}')

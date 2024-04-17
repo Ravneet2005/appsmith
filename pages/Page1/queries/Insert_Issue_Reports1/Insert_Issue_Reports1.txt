@@ -1,0 +1,1 @@
+INSERT INTO Issue_Reports (issuerID,modName,date,reportContent,resolved,severity,type) VALUES ('{{(tatest.formData || {}).issuerID}}','{{(tatest.formData || {}).modName}}','{{(tatest.formData || {}).date}}','{{(tatest.formData || {}).reportContent}}','{{(tatest.formData || {}).resolved}}','{{(tatest.formData || {}).severity}}','{{(tatest.formData || {}).type}}')

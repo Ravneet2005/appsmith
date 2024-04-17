@@ -1,0 +1,1 @@
+INSERT INTO Post_Comments (commentID,commenterID,date,comment,replyingTo) VALUES ('{{(post_comment_update.formData || {}).commentID}}','{{(post_comment_update.formData || {}).commenterID}}','{{(post_comment_update.formData || {}).date}}','{{(post_comment_update.formData || {}).comment}}','{{(post_comment_update.formData || {}).replyingTo}}')
