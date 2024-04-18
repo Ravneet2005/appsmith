@@ -1,0 +1,1 @@
+UPDATE Content_Creators SET userID= '{{Table3.updatedRow.userID}}', bio= '{{Table3.updatedRow.bio}}', earnings= '{{Table3.updatedRow.earnings}}', genreID= '{{Table3.updatedRow.genreID}}' WHERE creatorID= '{{Table3.updatedRow.creatorID}}';

@@ -1,0 +1,2 @@
+INSERT INTO Followings (followerID, followeeID)
+  VALUES (1, 1);

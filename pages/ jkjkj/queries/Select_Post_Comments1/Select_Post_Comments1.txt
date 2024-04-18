@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Post_Comments
+ORDER BY
+  {{Table8.sortOrder.column || 'commentID'}} {{Table8.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table8.pageSize}}
+OFFSET
+  {{Table8.pageOffset}}

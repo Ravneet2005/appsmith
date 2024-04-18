@@ -1,0 +1,1 @@
+INSERT INTO Post_Comments (commentID,commenterID,date,comment,replyingTo) VALUES ('{{(JSONForm4.formData || {}).commentID}}','{{(JSONForm4.formData || {}).commenterID}}','{{(JSONForm4.formData || {}).date}}','{{(JSONForm4.formData || {}).comment}}','{{(JSONForm4.formData || {}).replyingTo}}')

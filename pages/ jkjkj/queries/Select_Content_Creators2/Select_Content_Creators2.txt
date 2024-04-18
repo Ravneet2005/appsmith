@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Content_Creators
+ORDER BY
+  {{Table5.sortOrder.column || 'creatorID'}} {{Table5.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table5.pageSize}}
+OFFSET
+  {{Table5.pageOffset}}

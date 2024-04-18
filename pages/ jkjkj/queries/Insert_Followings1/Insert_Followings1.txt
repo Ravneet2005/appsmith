@@ -1,0 +1,1 @@
+INSERT INTO Followings (followeeID) VALUES ('{{(Table4.newRow || {}).followeeID}}')

@@ -1,0 +1,1 @@
+UPDATE Genres SET genreName= '{{Table3.updatedRow.genreName}}' WHERE genreID= '{{Table3.updatedRow.genreID}}';

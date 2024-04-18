@@ -1,0 +1,1 @@
+INSERT INTO Content_Creators (userID,bio,earnings,genreID) VALUES ('{{(Table5.newRow || {}).userID}}','{{(Table5.newRow || {}).bio}}','{{(Table5.newRow || {}).earnings}}','{{(Table5.newRow || {}).genreID}}')

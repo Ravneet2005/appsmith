@@ -1,0 +1,1 @@
+UPDATE Read_By SET userID= '{{Table6.updatedRow.userID}}' WHERE postID= '{{Table6.updatedRow.postID}}';

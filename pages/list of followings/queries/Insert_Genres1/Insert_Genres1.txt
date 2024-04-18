@@ -1,0 +1,1 @@
+INSERT INTO Genres (genreName) VALUES ('{{(Table3.newRow || {}).genreName}}')

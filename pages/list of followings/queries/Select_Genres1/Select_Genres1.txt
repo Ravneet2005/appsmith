@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Genres
+ORDER BY
+  {{Table3.sortOrder.column || 'genreID'}} {{Table3.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table3.pageSize}}
+OFFSET
+  {{Table3.pageOffset}}

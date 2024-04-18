@@ -1,0 +1,1 @@
+INSERT INTO Read_By (userID) VALUES ('{{(Table6.newRow || {}).userID}}')

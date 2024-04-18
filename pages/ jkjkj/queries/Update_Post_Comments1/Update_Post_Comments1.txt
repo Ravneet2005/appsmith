@@ -1,0 +1,1 @@
+UPDATE Post_Comments SET postID= '{{Table8.updatedRow.postID}}', commenterID= '{{Table8.updatedRow.commenterID}}', date= '{{Table8.updatedRow.date}}', comment= '{{Table8.updatedRow.comment}}', replyingTo= '{{Table8.updatedRow.replyingTo}}' WHERE commentID= '{{Table8.updatedRow.commentID}}';

@@ -1,0 +1,1 @@
+INSERT INTO Post_Comments (postID,commenterID,date,comment,replyingTo) VALUES ('{{(Table8.newRow || {}).postID}}','{{(Table8.newRow || {}).commenterID}}','{{(Table8.newRow || {}).date}}','{{(Table8.newRow || {}).comment}}','{{(Table8.newRow || {}).replyingTo}}')

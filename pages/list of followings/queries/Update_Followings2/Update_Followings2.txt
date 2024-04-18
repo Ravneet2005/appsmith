@@ -1,0 +1,1 @@
+UPDATE Followings SET followeeID= '{{Table4.updatedRow.followeeID}}' WHERE followerID= '{{Table4.updatedRow.followerID}}';

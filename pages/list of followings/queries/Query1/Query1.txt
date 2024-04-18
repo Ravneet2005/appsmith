@@ -1,0 +1,1 @@
+SELECT * FROM Content_Creators LIMIT 10;

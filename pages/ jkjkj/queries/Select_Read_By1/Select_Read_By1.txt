@@ -1,0 +1,10 @@
+SELECT
+  *
+FROM
+  Read_By
+ORDER BY
+  {{Table6.sortOrder.column || 'postID'}} {{Table6.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{Table6.pageSize}}
+OFFSET
+  {{Table6.pageOffset}}
