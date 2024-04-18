@@ -1,0 +1,1 @@
+SELECT * FROM Post_Comments LIMIT 10;

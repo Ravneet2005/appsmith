@@ -1,0 +1,1 @@
+SELECT userID, age, firstName, lastName, email FROM Readers WHERE active = 1;
