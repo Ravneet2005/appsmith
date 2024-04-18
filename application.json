@@ -1,8 +1,12 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Reader_Post_Searcher",
       "isDefault": true
+    },
+    {
+      "id": "Reader_Comment_Post",
+      "isDefault": false
     }
   ],
   "viewMode": false,
