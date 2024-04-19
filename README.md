@@ -27,8 +27,6 @@
 
 - list of followings: The user views the list of writers that they follow in the table; with their first and last names being one of the attributes included. They are also able to faster get their followings by inserting their user ids in the "Your User ID" text box.
 
-- writting assistant The user can enter their ID and decide what actions to do next; delete the account or update their experience.
-
 - update exp: There is a table where the user gets added from the writing assistant page, and that table can also be downloaded as a CSV or excel file. Also, the user is able to edit their experience in the JSON form.
 
 
