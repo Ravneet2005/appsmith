@@ -1,3 +1,8 @@
+# UI Screen 
+- Reader_Post_Searcher UI Screen: The user can go over the list of content creators and genres, choose a content creator to view that creator's posts, and view the details for one post by selecting the row on the table. Then, they can click the 'View/Write Comemnts' button to go to the Reader_Comment_Post Screen
+
+- Reader_Comment_Post: When the user puts the post id on the input box, the comments for that post will be displayed on the table. The user can add or delete comments, and the table will be updated for any addition or deletion of comments.
+
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
